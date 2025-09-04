@@ -69,6 +69,6 @@ print(f"Se necesitan {monedas_010} monedas de 0.10")
 print(f"Resto actual: {resto_monedas} ")
 
 #Monedas de 0.05
-monedas_005 = resto_monedas // 5  
+monedas_005 = resto_monedas // 5 + 1 
 resto_monedas = resto_monedas % 5  
 print(f"Se necesitan {monedas_005} monedas de 0.05")
